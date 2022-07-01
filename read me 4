@@ -1,0 +1,21 @@
+read the last read me files.
+in addition, we use three controllers in row.
+that means we dedicate some few seconds for each one and they perform independently.
+
+These 3 controllers gains:
+        kp1=25
+        ki1=0
+        kd1=1
+
+        kp2=8
+        ki2=0
+        kd2=0.5
+
+        kp3=20
+        ki3=0.05
+        kd3=1
+
+Dedicates time:
+2(s)  First rotation
+4(s)  Walking to ball
+2(s)  Second rotation
